@@ -4,7 +4,7 @@
 <h2>Description</h2>
 The problem we will be working on is analysing company's HR data to provide HR team with custom analytics and readly usable reports for furhter analysis. We will be using dataset from a company calles "Atlas Labs .
 
-Defining churn <br />
+Defining HR Analytics <br />
 HR analytics (also known as people analytics) is the collection and application of talent data to improve critical talent and business outcomes. HR analytics leaders enable HR leaders to develop data-driven insights to inform talent decisions, improve workforce processes and promote positive employee experience.(Gartner)
 <br />
 

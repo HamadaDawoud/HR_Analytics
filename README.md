@@ -19,8 +19,18 @@ HR analytics (also known as people analytics) is the collection and application 
 
 - <b>Windows 10</b> (21H2)
 
+
+<h2>Project Scope:</h2>
+This project is primarily focusing on the steps of the report development process that include: <br/>
+1.	Requirement gathering <br/>
+2.	Connecting to data sources <br/>
+3.	Transforming data according to business requirements <br/>
+4.	Building data model <br/>
+5.	Creating DAX measure that help in analyzing our data <br/>
+
+
 <h2>Project Steps:</h2>
-1.Check data for duplication to ensure each data row reflects a unique customer in the customer table, will create two measures; one to count cust_id and the other to count dist_cust_id.
+1.Data is loaded to PowerBI with one fact table and 4 other dimension tables 
  <br/>
  <br/>
 <p align="center">
@@ -28,7 +38,7 @@ HR analytics (also known as people analytics) is the collection and application 
 <br />
 <br />
 <p align="left">
-2.Create churned column to convert churn status into binomial for the ease of analysis instead of (yes,no) structure using (IF). Then create a measure with the number of churned_customers to find the churn rate. 
+2.	To analyze data chronologically, a new calculated time dimension table is created using DAX code with “Calendar” function 
  <br/>
  <br/>
 <p align="center">
@@ -36,7 +46,7 @@ HR analytics (also known as people analytics) is the collection and application 
 <br />
 <br />
 <p align="left">
-3.Next a bar chart is created to represented the different reasons that causes customers to churn  
+3.	After we have managed to load the data sources from which the analysis will be carried over, the data model is established with tables relations according to the snowflake schema illustrated here   
  <br/>
  <br/>
 <p align="center">
@@ -44,114 +54,93 @@ HR analytics (also known as people analytics) is the collection and application 
 <br />
 <br />
 <p align="left">
-4. Reasons that cause customers to churn are categorized into four distinct churn categories. For example, reasons related to other competitors, attitude…etc.   
+4.	Next, some exploratory analysis is done to check the number of employees (Active, In-active) to find out the company attrition rate    
 <br/>
 <br/>
 <p align="center">
 <img src="https://i.ibb.co/k6wYnJC/4.jpg" height="80%" width="80%" alt="Analysing Customer Churn"/>
-<br/>
-The pie chart shows clearly that almost half of all customers churning are related to other competitors
 <br />
 <br />
  <p align="left">
-5. Meanwhile, the competitors launched aggressive promos in certain states, and it’s needed to analyze how those promos is impacting our customers
-A map chart is used to visualized the number of churned customers and their percentage of total customers in each state    
+5.	The following visuals are created to overview the company’s hiring trend with more emphasis on active employees regarding their departments and job roles  
 <br/>
 <br/>
 <p align="center">
 <img src="https://i.ibb.co/xSB0g9h/5.jpg" height="80%" width="80%" alt="Analysing Customer Churn"/>
-<br/>
- The map show that the state of California has abnormally high churn rate (>60%)
 <br />
 <br />
  <p align="left">
-6. The next step is to dig dipper in the analysis and it’s a good way to categorize the data we have and create a metadata table to ease the process of the analysis and help in specifying different analysis dimensions    
+6.	In the following steps, we will focus more on diversity and inclusion metrics <br/>
+•	employee’s distribution according to their age category and gender <br/>
+•	further employee information regarding marital status and ethnicity   
 <br/>
 <br/>
 <p align="center">
 <img src="https://i.ibb.co/h2KQpLV/6.jpg" height="80%" width="80%" alt="Analysing Customer Churn"/>
+<br/>
+It’s clearly notices that White ethnicity group average salary is far higher than other ethnicity groups 
 <br />
 <br />
  <p align="left">
-7. According to the findings in the previous step, it is obvious that we need to investigate more on the demographic dimension of our customer data. A new calculated column “demographics” is created to categorize the age of our customers to (Senior, Under-30 & Other) using nested-if function.   
+7.	After examining employees’ diversity, now we will examine an individual employee’s yearly performance  <br/>
+•	DAX measures were calculated to determine employees last performance rating date and the next performance rating due date 
 <br/>
 <br/>
 <p align="center">
 <img src="https://i.ibb.co/NTrj4LR/7.jpg" height="80%" width="80%" alt="Analysing Customer Churn"/>
 <br />
-<br />
- <p align="left">
-8. Analyzing churn customers’ age prevail that senior customers tend to churn more often, that indicate that customer age analysis can lead to more insight about churning. By Binning the customer age column into groups of 5 years.   
+<p align="left">
+ •	Next, to complete our performance tracker dashboard, measures for satisfaction levels and rating progress over the years by individual employee 
 <br/>
 <br/>
 <p align="center">
 <img src="https://i.ibb.co/6FjXmGb/8.jpg" height="80%" width="80%" alt="Analysing Customer Churn"/>
 <br/>
- It can be seen that the high churn rate in senior customers is mainly derived by the low customer number in this age 
+The example employee previewed in the dashboard show a clear decline in performance from year to year and that can be justified by the deterioration in his levels of satisfaction. In this case, it may be recommended to set a meeting with the employee and create improvement plan 
 <br />
 <br />
  <p align="left">
-9.Next we will examine customers with different contract periods into Monthly & Yearly contract category using “Switch function” to identify how the period of contracts affect churn rate.
+8.	The last key insight we are going to look for is to understand employee attrition 
 <br/>
 <br/>
 <p align="center">
 <img src="https://i.ibb.co/51PN6nj/9.jpg" height="80%" width="80%" alt="Analysing Customer Churn"/>
 <br/>
- The graph shows the monthly subscription customers tend to churn more than other long contract customers
-<br />
-<br />
- <p align="left">
-10.International call activity of customers are analyzed for churn rates.   
-<br/>
-<br/>
-<p align="center">
-<img src="https://i.ibb.co/vvNfC15/11.jpg" height="80%" width="80%" alt="Analysing Customer Churn"/>
-<br />
-<img src="https://i.ibb.co/nCHmnNS/10.jpg" height="80%" width="80%" alt="Analysing Customer Churn"/>
-<br />
-The graph shows that California (state with highest churn rate) also has 72% of people making international calls have no call plan. Those can be potential customers. Also, the churn rate for customers who pay for international plan but don’t call internationally is very high.
+From the charts we’ve just built, we can see some interesting insights on attrition that can help us prioritize which issues to resolve first. One thing is that frequent travelers have highest attrition rate despite making only 19% of total employees. Accordingly, a review for travel requirement policy and survey employees about feelings around travel frequency should be conducted
 <br />
 <br />
 <p align="left">
-To wrap up our findings, a dashboard is created to group our analysis in to three main dimensions. Age groups, Payment & Contract and Extra Charges
+9.	Finally, best practices are implemented to our visualizations to make it visually appealing to users who will engage with it on a regularly basis
 <br/>
 A.	An overview dashboard that summarize the dimensions by which in the analysis was made upon.
 <br/>
 <br/>
 <p align="center">
-<img src="https://i.ibb.co/6vmnPLT/DB1.jpg" height="80%" width="80%" alt="Analysing Customer Churn"/>
+<img src="https://i.ibb.co/VVxQ5Lm/10-A.jpg" height="80%" width="80%" alt="Analysing Customer Churn"/>
 <br />
 <br />
 <p align="left">
-B.	Age group dashboard
+B.	Demographics dashboard
 <br/>
 <br/>
 <p align="center">
-<img src="https://i.ibb.co/nDdkC00/DB2.jpg" height="80%" width="80%" alt="Analysing Customer Churn"/>
+<img src="https://i.ibb.co/PZ2tKFL/10-B.jpg" height="80%" width="80%" alt="Analysing Customer Churn"/>
 <br />
 <br />
 <p align="left">
-C.	Payments & Contract
+C.	Performance Tracker
 <br/>
 <br/>
 <p align="center">
-<img src="https://i.ibb.co/hf7TDnq/DB3.jpg" height="80%" width="80%" alt="Analysing Customer Churn"/>
+<img src="https://i.ibb.co/fqdFhLW/10-C.jpg" height="80%" width="80%" alt="Analysing Customer Churn"/>
 <br />
 <br />
 <p align="left">
-D.	Extra Charge   
+D.	Attrition   
 <br/>
 <br/>
 <p align="center">
-<img src="https://i.ibb.co/LhLdk3F/DB4.jpg" height="80%" width="80%" alt="Analysing Customer Churn"/>
-<br />
-<br />
-<p align="left">
-At the end; this dashboard highlits the main findings of our analysis that can help in making data-informed decisions   
-<br/>
-<br/>
-<p align="center">
-<img src="https://i.ibb.co/mhMyqR7/DB5.jpg" height="80%" width="80%" alt="Analysing Customer Churn"/>
+<img src="https://i.ibb.co/M6c0Mgn/10-D.jpg" height="80%" width="80%" alt="Analysing Customer Churn"/>
 <br />
 <br />
  

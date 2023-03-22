@@ -24,7 +24,7 @@ HR analytics (also known as people analytics) is the collection and application 
  <br/>
  <br/>
 <p align="center">
-<img src="https://i.ibb.co/16g5Jx3/1.jpg" height="80%" width="80%" alt="Analysing Customer Churn"/>
+<img src="https://i.ibb.co/vmDW3ym/1.jpg" height="80%" width="80%" alt="Analysing Customer Churn"/>
 <br />
 <br />
 <p align="left">
@@ -32,7 +32,7 @@ HR analytics (also known as people analytics) is the collection and application 
  <br/>
  <br/>
 <p align="center">
-<img src="https://i.ibb.co/w4KRcY0/2.jpg" height="80%" width="80%" alt="Analysing Customer Churn"/>
+<img src="https://i.ibb.co/jGFLCJV/2.jpg" height="80%" width="80%" alt="Analysing Customer Churn"/>
 <br />
 <br />
 <p align="left">
@@ -40,7 +40,7 @@ HR analytics (also known as people analytics) is the collection and application 
  <br/>
  <br/>
 <p align="center">
-<img src="https://i.ibb.co/XCvSdPW/3.jpg" height="80%" width="80%" alt="Analysing Customer Churn"/>
+<img src="https://i.ibb.co/jfF3rxW/3.jpg" height="80%" width="80%" alt="Analysing Customer Churn"/>
 <br />
 <br />
 <p align="left">
@@ -48,7 +48,7 @@ HR analytics (also known as people analytics) is the collection and application 
 <br/>
 <br/>
 <p align="center">
-<img src="https://i.ibb.co/zbP8zpN/4.jpg" height="80%" width="80%" alt="Analysing Customer Churn"/>
+<img src="https://i.ibb.co/k6wYnJC/4.jpg" height="80%" width="80%" alt="Analysing Customer Churn"/>
 <br/>
 The pie chart shows clearly that almost half of all customers churning are related to other competitors
 <br />
@@ -59,7 +59,7 @@ A map chart is used to visualized the number of churned customers and their perc
 <br/>
 <br/>
 <p align="center">
-<img src="https://i.ibb.co/hDx3QSM/5.jpg" height="80%" width="80%" alt="Analysing Customer Churn"/>
+<img src="https://i.ibb.co/xSB0g9h/5.jpg" height="80%" width="80%" alt="Analysing Customer Churn"/>
 <br/>
  The map show that the state of California has abnormally high churn rate (>60%)
 <br />
@@ -69,7 +69,7 @@ A map chart is used to visualized the number of churned customers and their perc
 <br/>
 <br/>
 <p align="center">
-<img src="https://i.ibb.co/CM6BkTF/6.jpg" height="80%" width="80%" alt="Analysing Customer Churn"/>
+<img src="https://i.ibb.co/h2KQpLV/6.jpg" height="80%" width="80%" alt="Analysing Customer Churn"/>
 <br />
 <br />
  <p align="left">
@@ -77,7 +77,7 @@ A map chart is used to visualized the number of churned customers and their perc
 <br/>
 <br/>
 <p align="center">
-<img src="https://i.ibb.co/XkvQ3rw/7.jpg" height="80%" width="80%" alt="Analysing Customer Churn"/>
+<img src="https://i.ibb.co/NTrj4LR/7.jpg" height="80%" width="80%" alt="Analysing Customer Churn"/>
 <br />
 <br />
  <p align="left">
@@ -85,7 +85,7 @@ A map chart is used to visualized the number of churned customers and their perc
 <br/>
 <br/>
 <p align="center">
-<img src="https://i.ibb.co/8j7gM8B/8.jpg" height="80%" width="80%" alt="Analysing Customer Churn"/>
+<img src="https://i.ibb.co/6FjXmGb/8.jpg" height="80%" width="80%" alt="Analysing Customer Churn"/>
 <br/>
  It can be seen that the high churn rate in senior customers is mainly derived by the low customer number in this age 
 <br />
@@ -95,7 +95,7 @@ A map chart is used to visualized the number of churned customers and their perc
 <br/>
 <br/>
 <p align="center">
-<img src="https://i.ibb.co/9hjcMjk/9.jpg" height="80%" width="80%" alt="Analysing Customer Churn"/>
+<img src="https://i.ibb.co/51PN6nj/9.jpg" height="80%" width="80%" alt="Analysing Customer Churn"/>
 <br/>
  The graph shows the monthly subscription customers tend to churn more than other long contract customers
 <br />

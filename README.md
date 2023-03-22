@@ -24,7 +24,7 @@ HR analytics (also known as people analytics) is the collection and application 
  <br/>
  <br/>
 <p align="center">
-<img src="https://i.ibb.co/vmDW3ym/1.jpg" height="80%" width="80%" alt="Analysing Customer Churn"/>
+<img src="https://i.ibb.co/vmDW3ym/1.jpg" height="50%" width="20%" alt="Analysing Customer Churn"/>
 <br />
 <br />
 <p align="left">

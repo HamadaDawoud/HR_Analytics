@@ -141,9 +141,9 @@ D.	Attrition
 <br/>
 <p align="center">
 <img src="https://i.ibb.co/M6c0Mgn/10-D.jpg" height="80%" width="80%" alt="Analysing Customer Churn"/>
-<br />
-<br />
- 
+<br/>
+<br/>
+
  
  
  
